@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "build palidrome",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-Wno-write-strings",
+                "main.c",
+                "-o",
+                "main.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
